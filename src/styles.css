@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #c7ff5f, #f1fe7b);
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.animated-text {
+  font-size: 3rem;
+  color: white;
+  animation: fadeIn 2s ease-in-out infinite alternate;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
